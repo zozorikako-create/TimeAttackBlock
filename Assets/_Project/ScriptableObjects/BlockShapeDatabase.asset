@@ -9,7 +9,98 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17d121e09df03d047a12cbda2bbda2c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f400467859f87c4881c834748801c86, type: 3}
   m_Name: BlockShapeDatabase
   m_EditorClassIdentifier: 
-  shapes: []
+  shapes:
+  - id: P01
+    displayName: L Triomino A (3)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+  - id: P02
+    displayName: L Triomino B (3)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+  - id: P03
+    displayName: L Triomino C (3)
+    cells:
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+  - id: P04
+    displayName: 3x3 Square (9)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+    - {x: 0, y: 2}
+    - {x: 1, y: 2}
+    - {x: 2, y: 2}
+  - id: P05
+    displayName: T Tetromino (4)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 1, y: 1}
+  - id: P06
+    displayName: 2x2 Square (4)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+  - id: P07
+    displayName: L Tetromino R (4)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: 2}
+    - {x: 1, y: 2}
+  - id: P08
+    displayName: L Tetromino L (4)
+    cells:
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    - {x: 1, y: 2}
+    - {x: 0, y: 2}
+  - id: P09
+    displayName: L Pentomino (5)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0, y: 2}
+    - {x: 1, y: 2}
+    - {x: 2, y: 2}
+  - id: P10
+    displayName: I Pentomino (5)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 3, y: 0}
+    - {x: 4, y: 0}
+  - id: P11
+    displayName: I Tetromino (4)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 3, y: 0}
+  - id: P12
+    displayName: I Triomino (3)
+    cells:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+  - id: P13
+    displayName: Single (1)
+    cells:
+    - {x: 0, y: 0}

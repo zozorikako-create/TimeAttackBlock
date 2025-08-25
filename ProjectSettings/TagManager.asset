@@ -44,3 +44,9 @@ TagManager:
   - name: Board
     uniqueID: 1661168841
     locked: 0
+  - name: BoardBackground
+    uniqueID: 318806913
+    locked: 0
+  - name: Block
+    uniqueID: 1196945189
+    locked: 0
